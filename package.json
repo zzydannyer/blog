@@ -1,0 +1,21 @@
+{
+  "name": "vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue-template-compiler": "^2.7.8"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.49"
+  }
+}
